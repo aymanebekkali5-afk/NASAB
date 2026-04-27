@@ -1,0 +1,10 @@
+◇ injected env (1) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+🚀 AHAMMAR Backend running on http://localhost:3101
+📋 Admin dashboard: http://localhost:3101/admin
+📡 API health:      http://localhost:3101/api/health
+
+::ffff:127.0.0.1 - - [27/Apr/2026:00:30:45 +0000] "GET /admin HTTP/1.1" 302 34 "-" "curl/8.18.0"
+::ffff:127.0.0.1 - - [27/Apr/2026:00:30:45 +0000] "POST /admin/login HTTP/1.1" 302 28 "-" "curl/8.18.0"
+::ffff:127.0.0.1 - - [27/Apr/2026:00:30:45 +0000] "GET /admin HTTP/1.1" 200 5291 "-" "curl/8.18.0"
+::ffff:127.0.0.1 - - [27/Apr/2026:00:30:45 +0000] "GET /admin/logout HTTP/1.1" 302 34 "-" "curl/8.18.0"
